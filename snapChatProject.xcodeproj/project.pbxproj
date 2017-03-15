@@ -17,6 +17,11 @@
 		4196F2DD1E650ECA009916E4 /* ImageFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4196F2DC1E650ECA009916E4 /* ImageFeed.swift */; };
 		4196F2E31E6514EE009916E4 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4196F2E21E6514EE009916E4 /* ImagePickerController.swift */; };
 		4196F2ED1E6609B0009916E4 /* PostNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4196F2EC1E6609B0009916E4 /* PostNavigationController.swift */; };
+		902026FB1E77641900EA3D1D /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902026FA1E77641900EA3D1D /* FeedController.swift */; };
+		902026FD1E77654500EA3D1D /* StoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902026FC1E77654500EA3D1D /* StoryController.swift */; };
+		902026FF1E77706100EA3D1D /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902026FE1E77706100EA3D1D /* FeedTableViewCell.swift */; };
+		902027011E77707300EA3D1D /* StoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902027001E77707300EA3D1D /* StoryTableViewCell.swift */; };
+		902027031E77A6CF00EA3D1D /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902027021E77A6CF00EA3D1D /* PostTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		4196F2DC1E650ECA009916E4 /* ImageFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFeed.swift; sourceTree = "<group>"; };
 		4196F2E21E6514EE009916E4 /* ImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
 		4196F2EC1E6609B0009916E4 /* PostNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostNavigationController.swift; sourceTree = "<group>"; };
+		902026FA1E77641900EA3D1D /* FeedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		902026FC1E77654500EA3D1D /* StoryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryController.swift; sourceTree = "<group>"; };
+		902026FE1E77706100EA3D1D /* FeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		902027001E77707300EA3D1D /* StoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryTableViewCell.swift; sourceTree = "<group>"; };
+		902027021E77A6CF00EA3D1D /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,9 @@
 			isa = PBXGroup;
 			children = (
 				417986C81E664AE40050E1DF /* imageCollectionVieCell.swift */,
+				902026FE1E77706100EA3D1D /* FeedTableViewCell.swift */,
+				902027001E77707300EA3D1D /* StoryTableViewCell.swift */,
+				902027021E77A6CF00EA3D1D /* PostTableViewCell.swift */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -77,6 +90,8 @@
 				4196F2EC1E6609B0009916E4 /* PostNavigationController.swift */,
 				417986CE1E6657650050E1DF /* Cells */,
 				4196F2E21E6514EE009916E4 /* ImagePickerController.swift */,
+				902026FA1E77641900EA3D1D /* FeedController.swift */,
+				902026FC1E77654500EA3D1D /* StoryController.swift */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -186,10 +201,15 @@
 				417986CB1E664CB60050E1DF /* ImageFlowLayout.swift in Sources */,
 				4196F2E31E6514EE009916E4 /* ImagePickerController.swift in Sources */,
 				417986C51E6632C40050E1DF /* TabBarController.swift in Sources */,
+				902027011E77707300EA3D1D /* StoryTableViewCell.swift in Sources */,
 				417986C91E664AE40050E1DF /* imageCollectionVieCell.swift in Sources */,
+				902026FD1E77654500EA3D1D /* StoryController.swift in Sources */,
 				4196F2DD1E650ECA009916E4 /* ImageFeed.swift in Sources */,
 				4196F2CB1E6509E8009916E4 /* AppDelegate.swift in Sources */,
 				4196F2ED1E6609B0009916E4 /* PostNavigationController.swift in Sources */,
+				902026FB1E77641900EA3D1D /* FeedController.swift in Sources */,
+				902026FF1E77706100EA3D1D /* FeedTableViewCell.swift in Sources */,
+				902027031E77A6CF00EA3D1D /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
